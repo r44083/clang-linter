@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+	<dict>
+		<key>name</key>
+		<string>ClangLinter_output_panel</string>
+		<key>scopeName</key>
+		<string>ClangLinter_output_panel</string>
+		<key>fileTypes</key>
+		<array>
+		</array>
+		<key>patterns</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>entity.name.tag</string>
+				<key>match</key>
+				<string>^(^\S.*\.\w+)  (\d+):(\d+)  (error|fatal error): (.*)$</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>entity.other.attribute-name</string>
+				<key>match</key>
+				<string>^(^\S.*\.\w+)  (\d+):(\d+)  (warning): (.*)$</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>constant.other.symbol</string>
+				<key>match</key>
+				<string>^(^\S.*\.\w+)  (\d+):(\d+)  (note): (.*)$</string>
+			</dict>
+		</array>
+	</dict>
+</plist>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+	<dict>
+		<key>name</key>
+		<string>ClangLinter_output_panel</string>
+		<key>settings</key>
+		<array>
+			<dict>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#2d2d2d</string>
+					<key>caret</key>
+					<string>#d3d0c8</string>
+					<key>foreground</key>
+					<string>#d3d0c8</string>
+					<key>invisibles</key>
+					<string>#747369</string>
+					<key>lineHighlight</key>
+					<string>#393939</string>
+					<key>selection</key>
+					<string>#515151</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>error.ClangLinter</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f2777a</string>
+				</dict>
+			</dict>
+			
+			<dict>
+				<key>scope</key>
+				<string>warning.ClangLinter</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f99157</string>
+				</dict>
+			</dict>
+			
+			<dict>
+				<key>scope</key>
+				<string>note.ClangLinter</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#99cc99</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</plist>

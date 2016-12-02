@@ -1,0 +1,28 @@
+{
+	"enable": true,
+	"debug": false,
+	"clanglinter_cmd":
+	[
+		"clang",
+		"--analyze"
+	],
+	"analyze_on_save_only": false,
+	"show_output_panel": true,
+	"clanglinter_extensions":
+	[
+		"c",
+		"cpp",
+		"cc",
+		"c++",
+		"h",
+		"hpp"
+	],
+	"clanglinter_syntaxes":
+	[
+		"C.tmLanguage",
+		"C++.tmLanguage",
+		"C Improved.tmLanguage",
+		"Objective-C.tmLanguage",
+		"Objective-C++.tmLanguage"
+	]
+}
