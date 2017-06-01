@@ -1,11 +1,11 @@
 # clang-linter
 Sublime text plugin for static C/C++ code analysis
 
-How to use:
-----------
-1. Copy "ClangLinter" folder to "sublime_text/Data/Packages".
+### How to use:
+
+1. Copy ClangLinter folder to "sublime_text/Data/Packages".
 2. Reload sublime_text.
-3. Add settings for ClangLinetr (should be on clanglinter_cmd_options sectionss) into the *.sublime-project file:
+3. Add some project-specific settings for ClangLinter into clanglinter_cmd_options sections in the *.sublime-project file:
 ```
 {
 	"settings":
@@ -27,7 +27,7 @@ How to use:
 	}
 }
 ```
-4. Make shure that clang.exe folder was added to your PATH variable.
+4. Make shure that clang.exe is available from your PATH variable.
 5. Enjoy
 
 Example:
